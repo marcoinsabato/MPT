@@ -13,3 +13,5 @@ DATABASE_CONFIG = {
     'host': os.getenv('DB_HOST'),
     'port': os.getenv('DB_PORT')
 }
+
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
